@@ -1,6 +1,6 @@
 <?php
 if (!ini_get('date.timezone')) {
-	date_default_timezone_set('Asia/Shanghai');
+	date_default_timezone_set('Asia/Yangon');
 }
 ini_set('display_errors', 'on');
 error_reporting(E_ALL);

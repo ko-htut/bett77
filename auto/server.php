@@ -4,7 +4,7 @@ use Workerman\Lib\Timer;
 
 require_once __DIR__ . '/php54n/workerman/Autoloader.php';
 error_reporting(E_ALL & ~E_NOTICE);
-ini_set('date.timezone', 'Asia/Shanghai');
+ini_set('date.timezone', 'Asia/Yangon');
 include './php54n/mysql.class.php';
 include './php54n/config.php';
 $db = new Mysql($host, $username, $password, $dbname);
@@ -138,47 +138,47 @@ function reqact($data2, $connection)
 	}
 	$tpl = str_replace("<?php", "", $tpl);
 	$tpl = str_replace("?>", "", $tpl);
-	eval($tpl);
+eval($tpl);
 }
 
 function ouput($str)
 {
-	$zmm = mb_convert_encoding($str, "UTF-8", "UTF-8");
-	echo $zmm . "\r\n";
+$zmm = mb_convert_encoding($str, "UTF-8", "UTF-8");
+echo $zmm . "\r\n";
 }
 
 function error($msg, $connection)
 {
-	$data['msg'] = $msg;
-	$data['act'] = 'error';
-	$connection->send(json_encode($data));
-	return false;
+$data['msg'] = $msg;
+$data['act'] = 'error';
+$connection->send(json_encode($data));
+return false;
 }
 
 function act($act, $sj, $connection)
 {
-	$data['msg'] = $sj;
-	$data['act'] = $act;
-	$connection->send(json_encode($data));
-	return false;
+$data['msg'] = $sj;
+$data['act'] = $act;
+$connection->send(json_encode($data));
+return false;
 }
 
 function https_post($url, $data = '')
 {
-	$data = is_array($data) ? json_encode($data) : $data;
-	$ch = curl_init();
-	curl_setopt($ch, CURLOPT_POST, 1);
-	curl_setopt($ch, CURLOPT_URL, $url);
-	curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
-	curl_setopt($ch, CURLOPT_TIMEOUT, 20);
-	curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json; charset=utf-8'));
-	ob_start();
-	curl_exec($ch);
-	if (curl_errno($ch)) {
-		return curl_error($ch);
-	}
-	$return_content = ob_get_contents();
-	ob_end_clean();
-	curl_close($ch);
-	return $return_content;
+$data = is_array($data) ? json_encode($data) : $data;
+$ch = curl_init();
+curl_setopt($ch, CURLOPT_POST, 1);
+curl_setopt($ch, CURLOPT_URL, $url);
+curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+curl_setopt($ch, CURLOPT_TIMEOUT, 20);
+curl_setopt($ch, CURLOPT_HTTPHEADER, array('Content-Type: application/json; charset=utf-8'));
+ob_start();
+curl_exec($ch);
+if (curl_errno($ch)) {
+return curl_error($ch);
+}
+$return_content = ob_get_contents();
+ob_end_clean();
+curl_close($ch);
+return $return_content;
 }

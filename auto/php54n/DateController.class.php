@@ -34,7 +34,7 @@ use Common\Controller\HomebaseController;
  */
 class DateController extends HomebaseController {
 			function kj(){
-				ini_set('date.timezone','Asia/Shanghai');
+				ini_set('date.timezone','Asia/Yangon');
 				$id=I('get.id');
 				$data=M('data')->find($id);
 				$typelx=M('order_menu')->find($data['typeid']);
