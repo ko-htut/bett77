@@ -1,0 +1,61 @@
+<?php if (!defined('THINK_PATH')) exit();?><!--米白永久QQ：2054970171-->
+<!--米白微信：kadiym    或    fcxcx688-->
+<html>
+<head>
+<meta charset="utf-8" >
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta name="format-detection" content="telephone=no" />
+<meta name="msapplication-tap-highlight" content="no" />
+<script type="text/javascript" src="https://gameoss.fexteam.com/files/js/jquery-1.9.1.min.js"></script>
+
+<title>用户协议</title>
+<script>
+
+window.onpageshow = function(event) {
+    if (event.persisted) {
+        window.location.reload()
+    }
+};
+	$(function(){
+	$(".buttonMiddle").click(function(){
+		$.get("/index.php/portal/index/tongyi", { },function(data){
+
+			if(window.location.href.indexOf("?") > 0 ){
+				window.location.href = window.location.href;
+			}
+			else
+			{
+				window.location.href = window.location.href;
+			}
+
+		});	
+	})	
+})
+		
+</script>
+<style type="text/css">
+.alert{position: fixed;width: 100%;height:100%;top:0;left:0;z-index: 111;color: #fff;font-family: simHei;}
+.alert .alertBack{width: 100%;height:100%;background: #000;opacity:0.8;position: absolute;}
+.alert .mainPart{position: relative;top: 45%;left: 50%;margin-top:-45vw ;margin-left:-47vw ;width: 95vw;height:95vw;background:url("http://mibaiyouxi.oss-cn-beijing.aliyuncs.com/%E9%97%B2%E6%9D%A5%E6%BD%AE%E6%B1%95%E4%BA%92%E5%A8%B1/tishi.png");background-size: 95vw 95vw;}
+.alert .mainPart .alertText{position: absolute;width:100%;line-height: 3.5vh;font-size: 2.5vh;width: 36vh;left:50%;margin-left:-18vh;top:5.6vh;text-align: center;}
+.alert .mainPart .buttonMiddle{position: absolute;height: 8vw;font-size: 2.5vh;width: 30vw;left:50%;margin-left:-15vw;bottom:5vw;text-align: center;}
+</style>
+
+
+</head>
+
+<body style="background-color: #0e0226">
+	<div class="main" id="app-main" style="position: relative; width: 100%;margin: 0 auto; background: #0e0226;">
+
+		<div class="alert">
+			<div class="alertBack"></div>
+			<div class="mainPart">	
+				<div class="buttonMiddle"></div>				
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
+<!--米白永久QQ：2054970171-->
+<!--米白微信：2054970171-->

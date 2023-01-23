@@ -1,0 +1,243 @@
+<!--米白QQ：2054970171
+网址：www.mbym.xyz
+棋牌、直播系统搭建 bug修复-->
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">  
+        
+    <meta content="application/xhtml+xml;charset=UTF-8" http-equiv="Content-Type">
+    <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+    <meta content="no-cache" http-equiv="pragma">
+    <meta content="0" http-equiv="expires">
+    <meta content="telephone=no, address=no" name="format-detection">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+    <meta name="apple-mobile-web-app-capable" content="yes" /> <!-- apple devices fullscreen -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <!-- Mobile Devices Support @end -->
+    <title>闲来潮汕互娱</title>
+    <link href="/dh/listnew.css" tppabs="/dh/listnew.css" rel="stylesheet" media="all" />
+    <link href="/dh/index.css" tppabs="/dh/index.css" rel="stylesheet" media="all" />
+    <link href="/dh/dialog1.css" tppabs="/dh/dialog1.css" rel="stylesheet" media="all" />
+    <script src="/dh/jquery-1.10.2.min.js" tppabs="/dh/jquery-1.10.2.min.js"></script>
+   <script type="text/javascript">
+        $(function(){
+            $('img[rrurl]').click(function(){
+                location.href = $(this).attr('rrurl');
+            });
+            $('table').attr("cellpadding","0").attr("cellspacing","0");
+            $('[fixed="fixed"]').css('position','fixed');
+            resize();
+            $(window).resize(function(){
+                resize();
+            });
+            $('.add_qq_more').each(function(){
+                var tourl = $.trim($(this).attr('toto'));
+                if(tourl ==''){
+                    tourl = 'javascript:;'
+                }
+                if(tourl.indexOf(':')==-1){
+                    tourl = tourl;
+                }
+                if(tourl !=''){
+                    if(tourl.indexOf('tel')!==0){
+                        if(tourl.indexOf('?')>0){
+                            tourl = tourl + '';
+                        }else{
+                            tourl = tourl + '';
+                        }
+                    }
+                    if($(this).is('a')){
+                        $(this).attr('href',tourl);
+                    }else if($(this).find('a').size()>0){
+                        $(this).find('a').each(function(){
+                            if($.trim($(this).attr('href')).indexOf('http')==-1){
+                                $(this).attr('href',tourl);
+                            }
+                        });
+                    }else{
+                        $(this).wrap('<a href="'+tourl+'"></a>');
+                    }
+                }
+            });
+            if($('.mainpicarea').is('div')){
+                var tplth = $('.mainpicarea').find('td').length;
+                $('#ppoool').append('<li class="on1" style="margin-left:0px;"></li>');
+                for(var i=1;i
+                <tplth;i++){ $('#ppoool').append('<li style="margin-left:0px;"></li>');
+                }
+                $('.mainpicarea').qswipe({ stime:0});
+                $('.mainpicarea').on('dragok',function(e,msg){
+                    if((msg+'').indexOf('.')>0){
+                        msg = 0;
+                    }
+                });
+            }
+        });
+        function resize(){
+            var ww = $(window).width();
+            $('.picshowtop,.mainpicshow').css('width',ww+'px');
+            $('#tpdhtr').children('td').css('width',ww+'px');
+            $('#tpdhtr').children('td').find('img').css('width',ww+'px');
+            $('img').each(function(){
+                var pw = $(this).parent().width();
+                var ppw = $(this).parent().parent().width();
+                if($(this).width()>ppw){
+                    $(this).width(ppw);
+                }
+            });
+        }
+    </script>
+
+
+        
+       
+</head>
+<body style="overflow-x: hidden;">
+    
+    <div style="top:0px;left:0px;width: 100%;height: 100%;position: fixed;z-index:-999;background-image: url('./uibg.jpg');background-size:100%,100%;">
+    </div>
+    <div class="picshowtop" style="position: relative;">
+
+    </div>
+
+  <div class="nwdt.mageline168.com" stye="overflow: hidden;">
+    <div class="mainshowtop" style="z-index:100;">
+         <div id="mainmenu27" style="position:absolute;padding-top: 20px;">
+
+<div style="text-align: center;background-image: url();">
+  <marquee style="color:#EEE685;font-size: 15px; width: 100%; line-height:520px;">官方导航链接：抵制不良游戏，杜绝外挂，拒绝盗版游戏。文明游戏，禁止赌博！</marquee>
+
+<ul>
+              <li style="cursor: pointer;text-shadow: 0px 0px 2px #00FFFF;font-weight: 600;color: #00FFFF;margin: 10px 5px 0px 0px;line-height: 43px;height: 43px;float: left;text-align: center;overflow: hidden;border-radius: 4px;background-image: url(/dh/bk.png);width: 100%;margin-right: 0px;" class='add_qq_more' toto=/y/xianlai>
+                    <a href='javascript:;'>
+                        <button class='wz_27_buttom m_text' type='button'  style="min-width:100%;color: #E0FFFF;"> 立即开启闲来之旅</button>
+                    </a>
+              </li>
+</ul>
+</div>
+
+            <ul>
+			    <!--结束-->
+
+
+
+
+				
+<!-------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+					    <div>
+        <div class="mainpicshow" style="height: 50px;">
+            <div class="mainpicarea" style="height: 50px;">
+                <table cellpadding="0" cellspacing="0" style="border: medium; border-image: none; height: 50px;">
+                </table>
+            </div>
+        </div><div style="position: absolute;width: 100%;height: 20px;bottom: 0px;" id="ppooind">
+            <!--<ol id="ppoool"></ol>-->
+        </div>
+    </div>
+</script>
+          <div style="overflow: hidden;">
+            <audio src="./666.mp3" tppabs="./666.mp3" id="Jaudio" class="media-audio" autoplay preload loop="loop"></audio>
+        </div>
+        <script type="text/javascript">
+            function audioAutoPlay(id){
+                var audio = document.getElementById(id);
+                audio.play();
+                document.addEventListener("WeixinJSBridgeReady", function () {
+                    audio.play();
+                }, false);
+                document.addEventListener('YixinJSBridgeReady', function() {
+                    audio.play();
+                }, false);
+            }
+        audioAutoPlay('Jaudio');
+        </script>
+  <script language="javascript" src="http://api.pop800.com/800.js?n=481124&s=01&p=l&l=cn"></script><div style="display:none;"><img src=http://mibaiyouxi.oss-cn-beijing.aliyuncs.com/kefu.png"></a></div>
+</body>
+      <style>
+    .pointBag{}
+    .pointBox{
+        filter:alpha(opacity=50); /*IE*/
+        -moz-opacity:50; /*FireFox*/
+        opacity:0.5;
+        background:#000;
+        border-radius:8px;
+        width:160px;height:160px;position:fixed;top:50%;left:50%;margin-left:-80px;margin-top:-80px;
+        z-index:999;
+    }
+    .pointIcon{
+        position:fixed;top:50%;left:50%;margin-left:-42px;margin-top:-70px;z-index:999;
+    }
+    .pointTxt{
+        position:fixed;top:50%;left:50%;text-align:center;color:#fff;font-size:18px; margin-top:30px; width:160px;margin-left:-80px;z-index:999;
+    }
+    .pointIcon2{
+        position:fixed;top:50%;left:50%;float:left;margin-left:-50px;margin-top:-70px;z-index:999;
+    }
+</style>
+<script type="text/javascript">
+    //复制链接
+    var pointIcon1="http://lelefile3.zhenglvyou.com/files/images/copy/alert1.png" ;
+    var pointIcon2="http://lelefile3.zhenglvyou.com/files/images/copy/alert2.png" ;
+    var shareTitle = "游戏导航:" ;
+    var endvar = "&v="+randomString(32);
+    var shareText = shareTitle+window.location.href
+    function randomString(len) {
+        len = len || 32;
+        var $chars = 'ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678';    /****默认去掉了容易混淆的字符oOLl,9gq,Vv,Uu,I1****/
+        var maxPos = $chars.length;
+        var pwd = '';
+        for (i = 0; i < len; i++) {
+            pwd += $chars.charAt(Math.floor(Math.random() * maxPos));
+        }
+        return pwd;
+    }
+    var copyCut = function(){
+        if(navigator.userAgent.match(/(iPhone|iPod|iPad);?/i)){
+            window.getSelection().removeAllRanges();//这段代码必须放在前面否则无效
+            //var Url2=document.getElementById("biaoios");//要复制文字的节点
+            const targetText = document.createTextNode(shareText);
+            document.body.appendChild(targetText);
+            var range = document.createRange();
+            // 选中需要复制的节点
+            range.selectNode(targetText);
+            // 执行选中元素
+            window.getSelection().addRange(range);
+            // 执行 copy 操作
+            if(document.execCommand('copy')){
+                document.execCommand('copy');
+                showPointReulst(1)
+            }else showPointReulst(2);
+            // 移除选中的元素
+            window.getSelection().removeAllRanges();
+            $(targetText).remove();
+        }else{
+            const input = document.createElement('input');
+            document.body.appendChild(input);
+            input.setAttribute('value', shareText);
+            input.select();
+            if (document.execCommand('copy')) {
+                document.execCommand('copy');
+                showPointReulst(1)
+            }else showPointReulst(2);
+            $(input).remove();
+        }
+    }
+
+
+    var showPointReulst = function(type){
+        $(".pointBag").remove();
+        var htm="";
+        if(type==1){
+            htm = "<div class='pointBag'><div class='pointBox'></div><img src='"+pointIcon1+"' class='pointIcon'/><span class='pointTxt'>复制成功</span></div>";
+        }else{
+            htm = "<div class='pointBag'><div class='pointBox'></div><img src='"+pointIcon2+"' class='pointIcon2'/><span class='pointTxt'>复制失败</span></div>";
+        }
+        $("body").append(htm);
+        setTimeout(function(){$(".pointBag").remove();},1200)
+    }
+
+</html>

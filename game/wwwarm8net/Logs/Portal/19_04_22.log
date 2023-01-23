@@ -1,0 +1,569 @@
+[ 2019-04-22T13:57:50+08:00 ] 111.17.43.250 /y/xianlai
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000281s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 33 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 33 行.
+
+[ 2019-04-22T13:57:54+08:00 ] 111.17.43.250 /index.php/y/xianlai?&code=021HQq7i1IjTIt0vQ0ai1LOj7i1HQq7j&state=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000216s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 33 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 39 行.
+NOTIC: [2] Use of undefined constant weixin_appid - assumed 'weixin_appid' (this will throw an Error in a future version of PHP) /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 42 行.
+NOTIC: [2] Use of undefined constant weixin_key - assumed 'weixin_key' (this will throw an Error in a future version of PHP) /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 42 行.
+NOTIC: [2] Use of undefined constant access_token - assumed 'access_token' (this will throw an Error in a future version of PHP) /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `jz_options` SET `option_value`='{\"weixin_appid\":\"wx77099b160e272012\",\"weixin_key\":\"7d833c938eebd16ff842f92a4d035f56\",\"access_token\":\"20_ocoSzPfnRwVKRaN8vO2xBEhz4rWtFDW00F-7UKTZwNFlsmJAt0e0juKF_By6PTD9itMSwNAWpEuGIzIhlRq4yVMWKZyP7bBck_M_S2bnF5T6paxe_GEnZiw53gaKh3hijv3p_813S08iQfbLMJHaAFAFCA\",\"access_token_time\":1555912673,\"jsapi_ticket\":\"HoagFKDcsGMVCIY2vOjf9rca6xrx4iPwthwIPEG0IjJOXM-7-rJVq8PYzzcXBYzrDV7_HZpujA44BNid7k3srA\",\"jsapi_ticket_time\":1555849118,\"skin_name\":\"index-\\u767d\\u864e,rr-\\u4eba\\u4eba,uu-\\u4f18\\u4f18,xx-\\u563b\\u563b\\u5a31\\u4e50,xdd-\\u591a\\u591a\\u5a31\\u4e50,dd-\\u5927\\u5927\\u5a31\\u4e50,yf-\\u4e00\\u65b9\\u5a31\\u4e50,tt-\\u6b63\\u7248\\u5929\\u5929,ht-\\u9ed1\\u6843\\u5a31\\u4e50,xd-\\u5144\\u5f1f\\u5a31\\u4e50,lt-\\u96f7\\u9706\\u5927\\u5385,rr-\\u4eba\\u4eba\\u5a31\\u4e50,kk-\\u5361\\u5361\\u5a31\\u4e50,lele-\\u4e50\\u4e50,31-\\u7384\\u6b66,22-\\u8054\\u5408,40-\\u5973\\u5a32,38-\\u76d8\\u53e4,46-\\u51e4\\u51f0,45-\\u4e5d\\u5c3e,41-\\u7965\\u4e91,42-\\u9f99\\u73e0,39-\\u9f99\\u9a6c,43-\\u7cbe\\u536b,47-\\u795e\\u9f99,48-\\u8f69\\u8f95\"}' WHERE `option_name` = 'extract' [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jz_user` WHERE `openid` = 'otLTw0gbbqqtXK33h2RkHuijEomM' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `jz_user` SET `openid`='otLTw0gbbqqtXK33h2RkHuijEomM',`last_login_ip`='111.17.43.250',`last_time`='2019-04-22 13:57:54' WHERE `id` = 261 [ RunTime:0.0029s ]
+NOTIC: [8] Undefined variable: name /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 83 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 261 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `jz_user` SET `password`='xianlai' WHERE `id` = 261 [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: xianlai /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 111 行.
+NOTIC: [8] Undefined index: istongyi /www/wwwroot/daoyou.live4j.top/wwwarm8net/Portal/Controller/IndexController.class.php 第 53 行.
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002849s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+
+[ 2019-04-22T13:57:55+08:00 ] 111.17.43.250 /index.php/portal/index/tongyi
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000178s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0003s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 261 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: xianlai /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 111 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000367s ]
+
+[ 2019-04-22T13:57:55+08:00 ] 111.17.43.250 /index.php/y/xianlai?&code=021HQq7i1IjTIt0vQ0ai1LOj7i1HQq7j&state=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000182s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0003s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 261 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: UPDATE `jz_user` SET `password`='xianlai' WHERE `id` = 261 [ RunTime:0.0033s ]
+NOTIC: [8] Undefined index: xianlai /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 111 行.
+SQL: UPDATE `jz_user` SET `token`='37b03e610520f281aaf50d9db1e62de2' WHERE `id` = 261 [ RunTime:0.0027s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/daoyou.live4j.top/wwwarm8net/Portal/Controller/IndexController.class.php 第 62 行.
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000882s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000908s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027624s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000385s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2019-04-22T13:57:57+08:00 ] 111.17.43.250 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000189s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0003s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 261 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: xianlai /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000311s ]
+
+[ 2019-04-22T13:58:50+08:00 ] 61.151.178.236 /y/xianlai
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000198s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 33 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 33 行.
+
+[ 2019-04-22T13:58:51+08:00 ] 61.129.6.203 /y/xianlai
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000176s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 33 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 33 行.
+
+[ 2019-04-22T14:02:30+08:00 ] 111.17.43.250 /y/xianlai
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000201s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 33 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 33 行.
+
+[ 2019-04-22T14:02:33+08:00 ] 111.17.43.250 /index.php/y/xianlai?&code=071H3WB70u7beE1mgzC70lObC70H3WBb&state=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000177s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 33 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 39 行.
+NOTIC: [2] Use of undefined constant weixin_appid - assumed 'weixin_appid' (this will throw an Error in a future version of PHP) /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 42 行.
+NOTIC: [2] Use of undefined constant weixin_key - assumed 'weixin_key' (this will throw an Error in a future version of PHP) /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 42 行.
+NOTIC: [2] Use of undefined constant access_token - assumed 'access_token' (this will throw an Error in a future version of PHP) /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jz_user` WHERE `openid` = 'otLTw0gbbqqtXK33h2RkHuijEomM' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `jz_user` SET `openid`='otLTw0gbbqqtXK33h2RkHuijEomM',`last_login_ip`='111.17.43.250',`last_time`='2019-04-22 14:02:33' WHERE `id` = 261 [ RunTime:0.0036s ]
+NOTIC: [8] Undefined variable: name /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 83 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0003s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 261 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `jz_user` SET `password`='xianlai' WHERE `id` = 261 [ RunTime:0.0087s ]
+NOTIC: [8] Undefined index: xianlai /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 111 行.
+NOTIC: [8] Undefined index: istongyi /www/wwwroot/daoyou.live4j.top/wwwarm8net/Portal/Controller/IndexController.class.php 第 53 行.
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003038s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000067s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+
+[ 2019-04-22T14:02:33+08:00 ] 111.17.43.250 /favicon.ico
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000174s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+ERR: 无法加载控制器:404
+
+[ 2019-04-22T14:02:35+08:00 ] 111.17.43.250 /index.php/portal/index/tongyi
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000176s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0003s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 261 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: xianlai /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 111 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2019-04-22T14:02:35+08:00 ] 111.17.43.250 /index.php/y/xianlai?&code=071H3WB70u7beE1mgzC70lObC70H3WBb&state=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000252s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0003s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 261 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: UPDATE `jz_user` SET `password`='xianlai' WHERE `id` = 261 [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: xianlai /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 111 行.
+SQL: UPDATE `jz_user` SET `token`='5b89f0a90dd08178eda4136ad5bff047' WHERE `id` = 261 [ RunTime:0.0141s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/daoyou.live4j.top/wwwarm8net/Portal/Controller/IndexController.class.php 第 62 行.
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000907s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000932s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027091s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000058s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2019-04-22T14:02:35+08:00 ] 111.17.43.250 /52/angular.min.js.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000195s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+ERR: 无法加载控制器:52
+
+[ 2019-04-22T14:02:35+08:00 ] 111.17.43.250 /52/angular.min.js.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000206s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+ERR: 无法加载控制器:404
+
+[ 2019-04-22T14:02:35+08:00 ] 111.17.43.250 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000173s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 261 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: xianlai /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000317s ]
+
+[ 2019-04-22T14:02:59+08:00 ] 111.17.43.250 /portal/user/fangka.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000175s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0003s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 261 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: xianlai /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 111 行.
+SQL: SELECT * FROM `jz_user` WHERE `id` = 261 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000050s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000271s ]
+
+[ 2019-04-22T14:02:59+08:00 ] 111.17.43.250 /themes/game/Public/js/maps/swiper.min.js.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000228s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001429s ]
+ERR: 无法加载控制器:Themes
+
+[ 2019-04-22T14:02:59+08:00 ] 111.17.43.250 /themes/game/Public/js/maps/swiper.min.js.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000195s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+ERR: 无法加载控制器:404
+
+[ 2019-04-22T14:03:01+08:00 ] 111.17.43.250 /52/angular.min.js.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000192s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+ERR: 无法加载控制器:52
+
+[ 2019-04-22T14:03:01+08:00 ] 111.17.43.250 /52/angular.min.js.map
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000206s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+ERR: 无法加载控制器:404
+
+[ 2019-04-22T23:35:16+08:00 ] 111.17.40.39 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000194s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 261 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: xianlai /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: UPDATE `jz_user` SET `token`='c58707bfdb88c97c00d7f1c5458149cf' WHERE `id` = 261 [ RunTime:0.0030s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/daoyou.live4j.top/wwwarm8net/Portal/Controller/IndexController.class.php 第 62 行.
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000894s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000916s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000057s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000302s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000320s ]
+
+[ 2019-04-22T23:35:16+08:00 ] 111.17.40.39 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000193s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0003s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 261 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: xianlai /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000299s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000314s ]
+
+[ 2019-04-22T23:35:31+08:00 ] 119.84.153.247 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000194s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000727s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 33 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 33 行.
+
+[ 2019-04-22T23:35:32+08:00 ] 119.84.153.247 /index.php?&code=081CSXtm0Nyccs1QXVrm0qB9um0CSXtA&state=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000191s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 33 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 39 行.
+NOTIC: [2] Use of undefined constant weixin_appid - assumed 'weixin_appid' (this will throw an Error in a future version of PHP) /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 42 行.
+NOTIC: [2] Use of undefined constant weixin_key - assumed 'weixin_key' (this will throw an Error in a future version of PHP) /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 42 行.
+NOTIC: [2] Use of undefined constant access_token - assumed 'access_token' (this will throw an Error in a future version of PHP) /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `jz_options` SET `option_value`='{\"weixin_appid\":\"wx77099b160e272012\",\"weixin_key\":\"7d833c938eebd16ff842f92a4d035f56\",\"access_token\":\"20_b4PwQA_RtbcQ0lnELpeMntOeXQHzQ6LOVx8bkckvRsDhznQekIDB6YDFlPMaY1HrrwZSh5DW1HCkcC3qNDOJY8yEFNyTVMYSiEOJ1eGDRmApYZd4HPPQzt_vvHgX9l2WmKg9KQL06dAqWCIBFZTiABASMG\",\"access_token_time\":1555947332,\"jsapi_ticket\":\"HoagFKDcsGMVCIY2vOjf9rca6xrx4iPwthwIPEG0IjJOXM-7-rJVq8PYzzcXBYzrDV7_HZpujA44BNid7k3srA\",\"jsapi_ticket_time\":1555849118,\"skin_name\":\"index-\\u767d\\u864e,rr-\\u4eba\\u4eba,uu-\\u4f18\\u4f18,xx-\\u563b\\u563b\\u5a31\\u4e50,xdd-\\u591a\\u591a\\u5a31\\u4e50,dd-\\u5927\\u5927\\u5a31\\u4e50,yf-\\u4e00\\u65b9\\u5a31\\u4e50,tt-\\u6b63\\u7248\\u5929\\u5929,ht-\\u9ed1\\u6843\\u5a31\\u4e50,xd-\\u5144\\u5f1f\\u5a31\\u4e50,lt-\\u96f7\\u9706\\u5927\\u5385,rr-\\u4eba\\u4eba\\u5a31\\u4e50,kk-\\u5361\\u5361\\u5a31\\u4e50,lele-\\u4e50\\u4e50,31-\\u7384\\u6b66,22-\\u8054\\u5408,40-\\u5973\\u5a32,38-\\u76d8\\u53e4,46-\\u51e4\\u51f0,45-\\u4e5d\\u5c3e,41-\\u7965\\u4e91,42-\\u9f99\\u73e0,39-\\u9f99\\u9a6c,43-\\u7cbe\\u536b,47-\\u795e\\u9f99,48-\\u8f69\\u8f95\"}' WHERE `option_name` = 'extract' [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jz_user` WHERE `openid` = 'otLTw0gbbqqtXK33h2RkHuijEomM' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `jz_user` SET `openid`='otLTw0gbbqqtXK33h2RkHuijEomM',`last_login_ip`='111.17.40.39',`last_time`='2019-04-22 23:35:32' WHERE `id` = 261 [ RunTime:0.0154s ]
+NOTIC: [8] Undefined variable: name /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 83 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0007s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 261 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: xianlai /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 111 行.
+NOTIC: [8] Undefined index: istongyi /www/wwwroot/daoyou.live4j.top/wwwarm8net/Portal/Controller/IndexController.class.php 第 53 行.
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000040s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000066s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+
+[ 2019-04-22T23:35:33+08:00 ] 111.17.40.39 /favicon.ico
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000192s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+ERR: 无法加载控制器:404
+
+[ 2019-04-22T23:35:34+08:00 ] 119.84.153.247 /index.php/portal/index/tongyi
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000178s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000662s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 261 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: xianlai /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 111 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000305s ]
+
+[ 2019-04-22T23:35:34+08:00 ] 119.84.153.247 /index.php?&code=081CSXtm0Nyccs1QXVrm0qB9um0CSXtA&state=123
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000171s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000669s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0003s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 261 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: xianlai /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0004s ]
+SQL: UPDATE `jz_user` SET `token`='457927e6bdec715237317a8469504310' WHERE `id` = 261 [ RunTime:0.0027s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/daoyou.live4j.top/wwwarm8net/Portal/Controller/IndexController.class.php 第 62 行.
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000947s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000977s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000060s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000363s ]
+
+[ 2019-04-22T23:35:35+08:00 ] 119.84.153.247 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000175s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 261 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: xianlai /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 111 行.
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000276s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000291s ]
+
+[ 2019-04-22T23:36:09+08:00 ] 111.17.40.39 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000198s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 33 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 33 行.
+
+[ 2019-04-22T23:36:15+08:00 ] 61.129.6.203 /
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000220s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 33 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 33 行.
+
+[ 2019-04-22T23:37:09+08:00 ] 101.89.239.216 /index.php?
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000195s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 20 行.
+NOTIC: [8] Undefined index: token /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: uid /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 33 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/daoyou.live4j.top/wwwarm8net/Common/Controller/HomebaseController.class.php 第 33 行.
+

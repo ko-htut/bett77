@@ -1,0 +1,25 @@
+.active .niuniuunselect{
+    display: none;
+}
+.selectItems img{
+    display: none;
+}
+
+.selectItems.active img{
+    display: block;
+}
+.createRoom .mainPart .blueBack .selectPart .selectList .selectItems .text{float: left;margin-left: 0.5vh;}
+.createRoom .mainPart .blueBack .selectPart .selectList .selectItems select
+{
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    text-indent: 1.5vh;
+    position: relative;;
+    width: 8vh;
+    height:3.6vh;
+    left: 0.3vh;
+    top:0.5vh;
+    background-size: 100% 100%;
+    background-image: url("http://lyuu.poyio.cn/files/images/common/btnselect.png");
+}

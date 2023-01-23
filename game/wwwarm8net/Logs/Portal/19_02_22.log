@@ -1,0 +1,1047 @@
+[ 2019-02-22T18:09:53+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000291s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载控制器:Dh
+
+[ 2019-02-22T18:09:53+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000351s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+ERR: 无法加载控制器:404
+
+[ 2019-02-22T18:09:54+08:00 ] 114.135.150.251 /y/yf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000269s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_options` WHERE ( option_name='site_options' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/uu.cyq222.top/www.cxnd.com/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/uu.cyq222.top/www.cxnd.com/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/uu.cyq222.top/www.cxnd.com/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0004s ]
+SQL: UPDATE `jz_user` SET `password`='yf' WHERE `id` = 87 [ RunTime:0.0172s ]
+SQL: UPDATE `jz_user` SET `token`='dc1cea8410f86f93fe1ab3443645e211' WHERE `id` = 87 [ RunTime:0.0174s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/uu.cyq222.top/www.cxnd.com/Portal/Controller/IndexController.class.php 第 62 行.
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000874s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000901s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2019-02-22T18:09:54+08:00 ] 114.135.150.251 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000213s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/uu.cyq222.top/www.cxnd.com/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/uu.cyq222.top/www.cxnd.com/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/uu.cyq222.top/www.cxnd.com/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0006s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2019-02-22T18:09:59+08:00 ] 114.135.150.251 /portal/user/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000238s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/uu.cyq222.top/www.cxnd.com/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/uu.cyq222.top/www.cxnd.com/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/uu.cyq222.top/www.cxnd.com/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Use of undefined constant sfgl - assumed 'sfgl' /www/wwwroot/uu.cyq222.top/game/www.cxnd.com/Cache/Portal/a0cade038eeaf8d9bcdc0f30bc23c3a4.php 第 150 行.
+NOTIC: [8] Use of undefined constant sfgl - assumed 'sfgl' /www/wwwroot/uu.cyq222.top/game/www.cxnd.com/Cache/Portal/a0cade038eeaf8d9bcdc0f30bc23c3a4.php 第 161 行.
+NOTIC: [8] Use of undefined constant sfgl - assumed 'sfgl' /www/wwwroot/uu.cyq222.top/game/www.cxnd.com/Cache/Portal/a0cade038eeaf8d9bcdc0f30bc23c3a4.php 第 239 行.
+NOTIC: [8] Use of undefined constant sfgl - assumed 'sfgl' /www/wwwroot/uu.cyq222.top/game/www.cxnd.com/Cache/Portal/a0cade038eeaf8d9bcdc0f30bc23c3a4.php 第 240 行.
+NOTIC: [8] Use of undefined constant sfgl - assumed 'sfgl' /www/wwwroot/uu.cyq222.top/game/www.cxnd.com/Cache/Portal/a0cade038eeaf8d9bcdc0f30bc23c3a4.php 第 251 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2019-02-22T18:10:01+08:00 ] 114.135.150.251 /index.php/portal/home/gerenzxyaoqinghan/id/87
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000326s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/uu.cyq222.top/www.cxnd.com/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0005s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/uu.cyq222.top/www.cxnd.com/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/uu.cyq222.top/www.cxnd.com/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0005s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2019-02-22T18:10:02+08:00 ] 114.135.150.251 /index.php/portal/index/getconfig/?url=http%3A%2F%2Fuu.cyq222.top%2Findex.php%2Fportal%2Fhome%2Fgerenzxyaoqinghan%2Fid%2F87
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000210s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000765s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/uu.cyq222.top/www.cxnd.com/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/uu.cyq222.top/www.cxnd.com/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/uu.cyq222.top/www.cxnd.com/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0006s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant weixin_appid - assumed 'weixin_appid' /www/wwwroot/uu.cyq222.top/www.cxnd.com/Portal/Controller/IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant weixin_key - assumed 'weixin_key' /www/wwwroot/uu.cyq222.top/www.cxnd.com/Portal/Controller/IndexController.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant access_token - assumed 'access_token' /www/wwwroot/uu.cyq222.top/www.cxnd.com/Portal/Controller/IndexController.class.php 第 40 行.
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Use of undefined constant weixin_appid - assumed 'weixin_appid' /www/wwwroot/uu.cyq222.top/www.cxnd.com/Portal/Controller/IndexController.class.php 第 42 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2019-02-22T18:10:04+08:00 ] 114.135.150.251 /index.php/portal/home/gerenzxchengyuan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000297s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/uu.cyq222.top/www.cxnd.com/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0005s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/uu.cyq222.top/www.cxnd.com/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/uu.cyq222.top/www.cxnd.com/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_qun` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_qun` WHERE `open` = 87  [ RunTime:0.0001s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 174 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 174 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000430s ]
+
+[ 2019-02-22T18:10:08+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000224s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+ERR: 无法加载控制器:Dh
+
+[ 2019-02-22T18:10:08+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000206s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+ERR: 无法加载控制器:404
+
+[ 2019-02-22T18:10:11+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000208s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+ERR: 无法加载控制器:Dh
+
+[ 2019-02-22T18:10:11+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000249s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+ERR: 无法加载控制器:404
+
+[ 2019-02-22T18:10:12+08:00 ] 114.135.150.251 /y/dd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000204s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/uu.cyq222.top/www.cxnd.com/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0005s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/uu.cyq222.top/www.cxnd.com/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/uu.cyq222.top/www.cxnd.com/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0005s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: UPDATE `jz_user` SET `password`='dd' WHERE `id` = 87 [ RunTime:0.0123s ]
+SQL: UPDATE `jz_user` SET `token`='290123645ff583b3c7d3aea0c802066b' WHERE `id` = 87 [ RunTime:0.0280s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/uu.cyq222.top/www.cxnd.com/Portal/Controller/IndexController.class.php 第 62 行.
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000877s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000906s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030615s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000443s ]
+
+[ 2019-02-22T18:10:12+08:00 ] 114.135.150.251 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000226s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/uu.cyq222.top/www.cxnd.com/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/uu.cyq222.top/www.cxnd.com/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/uu.cyq222.top/www.cxnd.com/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0005s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000344s ]
+
+[ 2019-02-22T18:11:16+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000210s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+ERR: 无法加载控制器:Dh
+
+[ 2019-02-22T18:11:16+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000227s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+ERR: 无法加载控制器:404
+
+[ 2019-02-22T18:11:17+08:00 ] 114.135.150.251 /y/xdd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000296s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0007s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0006s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0007s ]
+SQL: UPDATE `jz_user` SET `password`='xdd' WHERE `id` = 87 [ RunTime:0.0101s ]
+SQL: UPDATE `jz_user` SET `token`='d08755794071f03f5269ab50f5510117' WHERE `id` = 87 [ RunTime:0.0122s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/uu.cyq222.top/QQ93202903/Portal/Controller/IndexController.class.php 第 62 行.
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000879s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000906s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000372s ]
+
+[ 2019-02-22T18:11:17+08:00 ] 114.135.150.251 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000229s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0005s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2019-02-22T18:11:19+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000232s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+ERR: 无法加载控制器:Dh
+
+[ 2019-02-22T18:11:19+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000384s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+ERR: 无法加载控制器:404
+
+[ 2019-02-22T18:11:22+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000230s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+ERR: 无法加载控制器:Dh
+
+[ 2019-02-22T18:11:22+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000210s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+ERR: 无法加载控制器:404
+
+[ 2019-02-22T18:11:23+08:00 ] 114.135.150.251 /y/yf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000252s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0004s ]
+SQL: UPDATE `jz_user` SET `password`='yf' WHERE `id` = 87 [ RunTime:0.0144s ]
+SQL: UPDATE `jz_user` SET `token`='dfd4d06ebf3173fe32be2ee0d40e0979' WHERE `id` = 87 [ RunTime:0.0091s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/uu.cyq222.top/QQ93202903/Portal/Controller/IndexController.class.php 第 62 行.
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000868s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000898s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2019-02-22T18:11:23+08:00 ] 114.135.150.251 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000224s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0005s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000411s ]
+
+[ 2019-02-22T18:11:24+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000264s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+ERR: 无法加载控制器:Dh
+
+[ 2019-02-22T18:11:24+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000245s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+ERR: 无法加载控制器:404
+
+[ 2019-02-22T18:11:26+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000226s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+ERR: 无法加载控制器:Dh
+
+[ 2019-02-22T18:11:26+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000241s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+ERR: 无法加载控制器:404
+
+[ 2019-02-22T18:11:27+08:00 ] 114.135.150.251 /y/dd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000213s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000873s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0004s ]
+SQL: UPDATE `jz_user` SET `password`='dd' WHERE `id` = 87 [ RunTime:0.0306s ]
+SQL: UPDATE `jz_user` SET `token`='eadc7a8998efc11732861c2f07b0900e' WHERE `id` = 87 [ RunTime:0.0115s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/uu.cyq222.top/QQ93202903/Portal/Controller/IndexController.class.php 第 62 行.
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000907s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000939s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2019-02-22T18:11:27+08:00 ] 114.135.150.251 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000229s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2019-02-22T18:11:45+08:00 ] 114.135.150.251 /y/dd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000208s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: UPDATE `jz_user` SET `password`='dd' WHERE `id` = 87 [ RunTime:0.0127s ]
+SQL: UPDATE `jz_user` SET `token`='407eca9f13d62a89f0ae88f791938968' WHERE `id` = 87 [ RunTime:0.0093s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/uu.cyq222.top/QQ93202903/Portal/Controller/IndexController.class.php 第 62 行.
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000865s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000894s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000430s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000465s ]
+
+[ 2019-02-22T18:11:45+08:00 ] 114.135.150.251 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000210s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2019-02-22T18:12:36+08:00 ] 114.135.150.251 /y/ht
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000207s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0007s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0007s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0004s ]
+SQL: UPDATE `jz_user` SET `password`='ht' WHERE `id` = 87 [ RunTime:0.0208s ]
+SQL: UPDATE `jz_user` SET `token`='8676b2c5788ee4aa6b756a6278d2e2f0' WHERE `id` = 87 [ RunTime:0.0087s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/uu.cyq222.top/QQ93202903/Portal/Controller/IndexController.class.php 第 62 行.
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000848s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000875s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000353s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2019-02-22T18:12:36+08:00 ] 114.135.150.251 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000206s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2019-02-22T18:12:38+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000213s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+ERR: 无法加载控制器:Dh
+
+[ 2019-02-22T18:12:38+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000220s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+ERR: 无法加载控制器:404
+
+[ 2019-02-22T18:12:38+08:00 ] 114.135.150.251 /y/dd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000296s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0005s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: UPDATE `jz_user` SET `password`='dd' WHERE `id` = 87 [ RunTime:0.0208s ]
+SQL: UPDATE `jz_user` SET `token`='8bc5dab193396fab1900cf530518ed54' WHERE `id` = 87 [ RunTime:0.0088s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/uu.cyq222.top/QQ93202903/Portal/Controller/IndexController.class.php 第 62 行.
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000871s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000897s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2019-02-22T18:12:38+08:00 ] 114.135.150.251 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000222s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000362s ]
+
+[ 2019-02-22T18:12:40+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000241s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000062s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+ERR: 无法加载控制器:Dh
+
+[ 2019-02-22T18:12:40+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000209s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+ERR: 无法加载控制器:404
+
+[ 2019-02-22T18:13:07+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000230s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+ERR: 无法加载控制器:Dh
+
+[ 2019-02-22T18:13:07+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000359s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+ERR: 无法加载控制器:404
+
+[ 2019-02-22T18:13:08+08:00 ] 114.135.150.251 /y/ht
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000233s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: UPDATE `jz_user` SET `password`='ht' WHERE `id` = 87 [ RunTime:0.0108s ]
+SQL: UPDATE `jz_user` SET `token`='ce9dce50860782c24bbfd979ee346288' WHERE `id` = 87 [ RunTime:0.0099s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/uu.cyq222.top/QQ93202903/Portal/Controller/IndexController.class.php 第 62 行.
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000899s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000927s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031358s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000394s ]
+
+[ 2019-02-22T18:13:09+08:00 ] 114.135.150.251 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000228s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0005s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000417s ]
+
+[ 2019-02-22T18:13:10+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000221s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+ERR: 无法加载控制器:Dh
+
+[ 2019-02-22T18:13:10+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000228s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+ERR: 无法加载控制器:404
+
+[ 2019-02-22T18:14:21+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000485s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+ERR: 无法加载控制器:Dh
+
+[ 2019-02-22T18:14:21+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000239s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+ERR: 无法加载控制器:404
+
+[ 2019-02-22T18:14:22+08:00 ] 114.135.150.251 /y/yf
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000231s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000796s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0005s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0004s ]
+SQL: UPDATE `jz_user` SET `password`='yf' WHERE `id` = 87 [ RunTime:0.0113s ]
+SQL: UPDATE `jz_user` SET `token`='102d71bff916d8e9fba30965c714ba77' WHERE `id` = 87 [ RunTime:0.0133s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/uu.cyq222.top/QQ93202903/Portal/Controller/IndexController.class.php 第 62 行.
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000943s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000971s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000374s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2019-02-22T18:14:22+08:00 ] 114.135.150.251 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000252s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000790s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000445s ]
+
+[ 2019-02-22T18:14:24+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000211s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+ERR: 无法加载控制器:Dh
+
+[ 2019-02-22T18:14:24+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000229s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+ERR: 无法加载控制器:404
+
+[ 2019-02-22T18:14:25+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000227s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+ERR: 无法加载控制器:Dh
+
+[ 2019-02-22T18:14:25+08:00 ] 114.135.150.251 /dh/666.mp3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000336s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+ERR: 无法加载控制器:404
+
+[ 2019-02-22T18:14:27+08:00 ] 114.135.150.251 /y/dd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000234s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0005s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: UPDATE `jz_user` SET `password`='dd' WHERE `id` = 87 [ RunTime:0.0388s ]
+SQL: UPDATE `jz_user` SET `token`='95eab448b8a103668b2bfb81eea7e92f' WHERE `id` = 87 [ RunTime:0.0097s ]
+NOTIC: [8] Undefined variable: user /www/wwwroot/uu.cyq222.top/QQ93202903/Portal/Controller/IndexController.class.php 第 62 行.
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001012s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033091s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000144s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2019-02-22T18:14:27+08:00 ] 114.135.150.251 /index.php/portal/index/gamejs
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000211s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_server` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_server` WHERE `type` = 0 AND `zt` = 1 ORDER BY num asc LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000370s ]
+
+[ 2019-02-22T18:14:29+08:00 ] 114.135.150.251 /portal/user/index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000224s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+NOTIC: [8] Use of undefined constant sfgl - assumed 'sfgl' /www/wwwroot/uu.cyq222.top/game/qq93202903/Cache/Portal/a0cade038eeaf8d9bcdc0f30bc23c3a4.php 第 150 行.
+NOTIC: [8] Use of undefined constant sfgl - assumed 'sfgl' /www/wwwroot/uu.cyq222.top/game/qq93202903/Cache/Portal/a0cade038eeaf8d9bcdc0f30bc23c3a4.php 第 161 行.
+NOTIC: [8] Use of undefined constant sfgl - assumed 'sfgl' /www/wwwroot/uu.cyq222.top/game/qq93202903/Cache/Portal/a0cade038eeaf8d9bcdc0f30bc23c3a4.php 第 239 行.
+NOTIC: [8] Use of undefined constant sfgl - assumed 'sfgl' /www/wwwroot/uu.cyq222.top/game/qq93202903/Cache/Portal/a0cade038eeaf8d9bcdc0f30bc23c3a4.php 第 240 行.
+NOTIC: [8] Use of undefined constant sfgl - assumed 'sfgl' /www/wwwroot/uu.cyq222.top/game/qq93202903/Cache/Portal/a0cade038eeaf8d9bcdc0f30bc23c3a4.php 第 251 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000064s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000306s ]
+
+[ 2019-02-22T18:14:30+08:00 ] 114.135.150.251 /index.php/portal/home/gerenzxchengyuan
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000306s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+NOTIC: [8] Undefined index: uid /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `jz_options` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'extract' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: token /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 23 行.
+NOTIC: [8] Undefined index: code /www/wwwroot/uu.cyq222.top/QQ93202903/Common/Controller/HomebaseController.class.php 第 39 行.
+SQL: SHOW COLUMNS FROM `jz_all_record` [ RunTime:0.0004s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'bonus' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `jz_qun` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `jz_qun` WHERE `open` = 87  [ RunTime:0.0001s ]
+SQL: SELECT `option_value` FROM `jz_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `jz_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 174 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `jz_user` WHERE `id` = 174 LIMIT 1   [ RunTime:0.0001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: Run Common\Behavior\TmplStripSpaceBehavior [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000325s ]
+

@@ -1,0 +1,351 @@
+<html ng-app="app">
+<head>
+    <meta charset="utf-8" >
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <title>游戏战绩</title>
+    <script type="text/javascript" src="http://lyuu.szlangya.cn/files/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="http://lyuu.szlangya.cn/files/js/fastclick.js"></script>
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js" ></script>
+    <script type="text/javascript" src="http://lyuu.szlangya.cn/files/js/vue.min.js" ></script>
+    <script type="text/javascript" src="http://lyuu.szlangya.cn/files/js/vue-resource.min.js" ></script>
+    <script type="text/javascript" src="http://lyuu.szlangya.cn/files/js/angular.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://lyuu.szlangya.cn/files/css/bull_vue-1.0.0.css">
+    <link rel="stylesheet" type="text/css" href="http://lyuu.szlangya.cn/files/css/bullalert.css">
+    <link rel="stylesheet" type="text/css" href="http://lyuu.szlangya.cn/files/css/bullshop.css">
+
+<script type="text/javascript">
+$(function() {
+    FastClick.attach(document.body);
+});
+
+var baseUr="http://uubs.chinamaili.net/";  
+
+var app = angular.module('app',[])
+app.controller("myCtrl", function($scope,$http) {
+    $scope.width = window.innerWidth;
+    $scope.height = window.innerHeight;
+    $scope.baseURL = 'http://uubs.chinamaili.net/';
+
+	$scope.outTotalPage = 0;
+    $scope.game_type = 5;
+    $scope.page = 0;
+    $scope.rows = 10;
+	$scope.pageIndex = 1;
+
+    $(".main").show();
+    $("#loading").hide();
+    $scope.getScore = function () {
+		if($scope.pageIndex==1){
+			$("#loading").show();
+		}
+		$scope.page = ($scope.pageIndex-1)*$scope.rows ;
+        $http({
+            url:$scope.baseURL + 'ay/mR',
+            method:'POST',
+            header:{'Content-Type':'application/x-www-form-urlencoded'},
+            data:{
+                'game_type':$scope.game_type,
+                'page' : $scope.page,
+                'rows' : $scope.rows
+            }
+		}).success(function (data, header, config, status) {
+			$("#loading").hide();
+            console.log(data);
+            var htm="";
+            $.each(data.data,function(i,e){
+				if(i==9){
+					$scope.outTotalPage = parseInt($scope.pageIndex) + 1 ;
+				}
+				var statusTxt = "" ;
+				var buttonTxt = "" ;
+				var buttonColor = "";
+				var unixTimestamp = new Date(e.create_time*1000) ;
+                if(e.is_close == 1){
+                    statusTxt = "<span style='color:#ff2d5e;'>已关闭</span>";
+					buttonTxt = "查看战绩";
+					buttonColor = "#ffa500;" ;
+                }else{
+                    statusTxt = "<span style='color:green;'>进行中</span>";
+					buttonTxt = "进入房间";
+					buttonColor = "green;";
+                }
+				var temp_game_type = $scope.game_type;
+				if($scope.game_type == 5 || $scope.game_type == 1 || $scope.game_type == 3){
+					temp_game_type = e.game_type ;
+				}
+				htm+="<div class='list-group-item'>"
+                   +"<div style='width:100%;padding-left:2%;padding-right:2%;float:left;border-bottom:solid 1px #ccc;padding-bottom:5px;'>"
+	               +"<span style='line-height:25px;width:50%;float:left;color:#666;'>"+unixTimestamp.toLocaleString()+"</span>"
+	               +"<span style='line-height:25px;width:50%;float:left;text-align:right;color:#666;'>房号:"+e.room_number+"</span>"
+                   +"</div>"
+                   +"<div style='width:100%;padding-left:2%;padding-right:2%;float:left;padding-top:5px;'>"
+                   +"<span style='line-height:25px;width:50%;float:left;'>"+statusTxt+"</span>"
+		           +"<span style='line-height:25px;width:50%;float:left;'>"
+		           +"<input type='button' value='"+buttonTxt+"' onclick='myRoomScore("+e.room_id+","+temp_game_type+","+e.room_number+","+e.is_close+","+e.max_count+")' style='float:right;margin-right:5px;border:none;background:"+buttonColor+";color:#fff;font-size:14px;padding:4px 10px;border-radius:3px;'>"
+		           +"</span>"
+	               +"</div>"
+                   +"</div>";
+            });
+            $("#j_roomRecordList").append(htm);
+			if($scope.outTotalPage>$scope.pageIndex){
+				$("#j_moreRecord").html("点击加载更多")
+			}else{
+				$("#j_moreRecord").html("没有更多记录")
+			}
+        }).error( function (data, header, config, status) {
+			$("#loading").hide();
+            console.log(data);
+        });
+    }
+	
+    //初始加载默认游戏第一页
+    $scope.getScore();
+
+	//点击游戏滑动区的logo切换游戏类型
+    $scope.getRoomList = function(type,o){ 
+		$(".cus-ul li span").removeClass("on");
+		$(".cus-ul li").eq(o).children("span").addClass("on");
+		$scope.game_type = type;
+		$("#j_roomRecordList").html("");
+		$scope.page = 0 ;
+		$scope.outTotalPage = 0;
+		$scope.pageIndex = 1;
+		if(type==-1){
+			alert("尚未开通，敬请期待！");
+			return false ;
+		}
+		$scope.getScore();
+    }
+	
+	//如果超过一页，点击加载更多
+	$scope.moreRoomList = function(){
+		if($scope.outTotalPage<=$scope.pageIndex){
+			$("#j_moreRecord").html("没有更多记录")
+		}else{
+			$scope.pageIndex = parseInt($scope.pageIndex)+1;
+            $scope.getScore();
+		}
+    }
+});
+
+//跳转到房间或战绩查询
+function myRoomScore(roomId,gameType,room_number,is_close,max_count){
+	var skipUrl = "" ;
+	if(is_close==1){
+		skipUrl = baseUr + "ay/fzRoom?roomId="+roomId+"&gameType="+gameType+"&roomNumber="+room_number+"&is_close="+is_close+"&max_count="+max_count;
+	}else{
+	    var str = decodeGameType(gameType) ;
+		skipUrl = baseUr + "f/"+str+"?i="+room_number+"_";
+	}
+    window.location.href = skipUrl ;
+}
+
+//获取固定格式的时间字符串
+Date.prototype.toLocaleString = function() {
+    return (this.getMonth() + 1) + "-" + this.getDate()+" "+this.getHours()+":"+this.getMinutes()  ;
+};
+
+//将游戏类型解析成uri	
+function decodeGameType(type){
+	var str = "";
+    switch (parseInt(type)){
+        case 29: str = "z9"; break;
+        case 98: str = "b8b"; break;
+        case 1: str = "yf"; break;
+        case 5: str = "b"; break;
+        case 9: str = "nb"; break;
+        case 96: str = "b6b"; break;
+        case 12: str = "mb"; break;
+        case 2: str = "l"; break;
+        case 6: str = "ma"; break;
+        case 8: str = "eba"; break;
+        case 3: str = "sg"; break;
+        case 19: str = "pj"; break;
+        case 22: str = "sg9"; break;
+        case 20: str = "dcx"; break;
+        case 21: str = "yxx"; break;
+		case 23: str = "laib"; break;
+		case 24: str = "mpZjh";break;
+		case 25: str = "xpjh";break;
+    };
+	return str ;
+}
+		
+</script>
+
+<style type="text/css">
+.gameItem{position: absolute;background-color: #291c4d;}
+.item{width:100%;height:40px;background-color:rgba(255, 165, 0, 0.42);margin-top:5px;}
+.itembox{float:left;width:30%;height:40px;line-height:40px;color:#fff;text-align:center;}
+.selecttype a{ filter:alpha(opacity=40);-moz-opacity:0.4; opacity:0.4;}
+.selecttype a.on{ filter:alpha(opacity=100);-moz-opacity:1.0; opacity:1.0;}
+</style>
+
+<link rel="stylesheet" href="http://www.swiper.com.cn/demo/fresh/css/swiper.min.css">
+<style type="text/css">
+html, body{height: 100%;font-family: "微软雅黑";}
+*{margin: 0;padding: 0;box-sizing: border-box;}
+a {color: #428bca;text-decoration: none;}
+a:hover,a:focus {color: #2a6496;text-decoration: underline;}
+a:focus {outline: thin dotted;outline: 5px auto -webkit-focus-ring-color;outline-offset: -2px;}
+		
+.padd_40{padding-top: 0px;background: #F5F5F5;overflow-x:hidden;}
+.a{text-align:center;line-height: 40px;position: fixed;top: 0;left: 0;width: 100%;z-index: 10;border-bottom: 1px #ccc solid; background: #f50;color: #fff;}
+.tab{display: flex;line-height: 40px;position: fixed;top: 40px;width: 100%;z-index: 10;border-bottom: 1px #ccc solid;}
+.tab a{width: 33.333333%;background: #fff;text-align: center;}
+.tab .active{border-bottom: 1px #f50 solid; color: #f50;}
+.panel{margin: 0;}
+		
+.refreshtip {position: absolute;left: 0;width: 100%;margin: 10px 0;text-align: center;color: #999;}
+.swiper-container{overflow: visible;}
+.loadtip { display: block;width: 100%;line-height: 8vh; height: 18vh;text-align: center;color: #999;border-top: 0px solid #ddd;}
+.swiper-container, .w{height: calc(72vh - 0px);}
+.swiper-slide{height: auto;}
+
+.text-center{text-align: center;}
+.list-group{padding-left: 0;margin-bottom: 20px;}
+.list-group-item{ float:left; margin-top:10px; width:100vw; padding:1.5vh 1vw; margin-bottom: -1px;background-color: #fff;border: 1px solid #ddd;}
+.list-group-item:first-child {border-top-left-radius: 4px;border-top-right-radius: 4px;}
+	
+ html,body {
+	height:100%;padding:0px; margin:0px;
+}
+html {
+	overflow:hidden;
+}
+* {
+	padding:0;
+	margin:0;
+}
+li {
+	list-style:none;
+}
+.img img {
+	width:100%;
+	display:block;
+}
+#header {
+	margin-bottom:50px;
+	height:100%; background-color:#0e0226;
+}
+#header .slidepage {
+	height:100%;
+}
+.scroll {
+	height:100%;
+}
+content-scroll{
+    height:100%;
+}
+.slidescroll {
+	height:auto;
+}
+.customcss{
+    width:auto; 
+}
+.customcss ul{
+    width:auto; 
+}
+.customcss ul li{
+    width:18vh; height:21vh; float:left; text-align:center;
+}
+.customcss ul li span{
+    width:14vh; height:15vh; margin:3vh 2vh; float:left; 
+	filter:alpha(opacity=50); /*支持 IE 浏览器*/
+    -moz-opacity:0.50; /*支持 FireFox 浏览器*/
+    opacity:0.50;  /*支持 Chrome, Opera, Safari 等浏览器*/
+}
+.customcss ul li span.on{
+	filter:alpha(opacity=100); /*支持 IE 浏览器*/
+    -moz-opacity:1; /*支持 FireFox 浏览器*/
+    opacity:1;  /*支持 Chrome, Opera, Safari 等浏览器*/
+}
+
+.text-customcss ul{
+    width:90vw; padding:0 5vw;
+}
+.text-customcss ul li{
+    width:50%; float:left; text-align:center;
+}
+.text-customcss ul li span{
+    width:100%; height:42vw; float:left;
+}
+</style>
+
+</head>
+
+<body style="background-color:#f1f1f1"  ng-controller="myCtrl">
+
+<!--顶部滑动区-->
+<div style="position:fixed;height:20vh;z-index:1;overflow:hidden;">
+  <div class="swiper-container" id="header">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide slidepage">
+      <div class="swiper-container scroll">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slidescroll customcss">
+            <ul class="cus-ul">
+			  <li><span ng-click="getRoomList(5,0)" class="on" style="background:url(http://gzcnd.szlangya.cn/files/images/custom/room/douniu.png) no-repeat 50% 50% / 14vh 14vh"></span></li>
+              <li><span ng-click="getRoomList(1,1)" style="background:url(http://gzcnd.szlangya.cn/files/images/custom/room/zhajinhua.png) no-repeat 50% 50% / 14vh 14vh"></span></li>
+              <li><span ng-click="getRoomList(3,2)" style="background:url(http://gzcnd.szlangya.cn/files/images/custom/room/sangong.png) no-repeat 50% 50% / 14vh 14vh"></span></li>
+              <li><span ng-click="getRoomList(19,3)" style="background:url(http://gzcnd.szlangya.cn/files/images/custom/room/paijiu.png) no-repeat 50% 50% / 14vh 14vh"></span></li>
+              <li><span ng-click="getRoomList(20,4)" style="background:url(http://gzcnd.szlangya.cn/files/images/custom/room/dachixiao.png) no-repeat 50% 50% / 14vh 14vh"></span></li>
+              <li><span ng-click="getRoomList(8,5)" style="background:url(http://gzcnd.szlangya.cn/files/images/custom/room/erbagan.png) no-repeat 50% 50% / 14vh 14vh"></span></li>
+              <li><span ng-click="getRoomList(6,6)" style="background:url(http://gzcnd.szlangya.cn/files/images/custom/room/hongzhongmajiang.png) no-repeat 50% 50% / 14vh 14vh"></span></li>
+              <li><span ng-click="getRoomList(2,7)" style="background:url(http://gzcnd.szlangya.cn/files/images/custom/room/doudizhu.png) no-repeat 50% 50% / 14vh 14vh"></span></li>
+			  <li><span ng-click="getRoomList(21,8)" style="background:url(http://gzcnd.szlangya.cn/files/images/custom/room/yuxiaxie.png) no-repeat 50% 50% / 14vh 14vh"></span></li>
+              <li><span ng-click="getRoomList(23,9)" style="background:url(http://gzcnd.szlangya.cn/files/images/custom/room/laiziniuniu.png) no-repeat 50% 50% / 14vh 14vh"></span></li>
+			</ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<script src="http://gzcnd.szlangya.cn/files/js/scroll/swiper.min.js"></script>
+<script src="http://gzcnd.szlangya.cn/files/js/scroll/JsRender.js"></script>
+<script>
+//内容滚动			
+var headerScrollSwiper = new Swiper('.scroll', {
+  	//65是头部的高
+  	//36是top地址和搜索的高
+  	slidesOffsetBefore: 10,
+	slidesOffsetAfter: 10,
+  	//direction: 'vertical',
+  	freeMode: true,
+  	slidesPerView: 'auto',
+});
+//document.addEventListener('touchmove', function(e){e.preventDefault()}, false);
+</script>
+
+<style>
+.loadmore{
+	z-index:2;position: fixed;width:100%;height:100%;top:0;left:0;background:#000;filter:alpha(opacity=50);-moz-opacity:0.5;opacity:0.5;
+}
+.loadimg{
+	top:40%;position: absolute;left: 50%;margin-left:-45px;margin-top:-45px;
+}
+.loadbtn{
+	float:left;margin-top:10px;width:100%;height:40px;line-height:40px;text-align:center;color:#aaa;background:#fff;
+}
+.recorddiv{
+	width:100vw;top:20vh;position:absolute;height:80vh;background:#f1f1f1;
+}
+</style>
+<!--加载更多样式-->
+<div id="loading" class="loadmore">
+    <img src="http://lyuu.szlangya.cn/files/images/loading.gif" class="loadimg"/>
+</div>
+<!--数据列表-->
+<div class="recorddiv">
+    <div style="width:100%;"id="j_roomRecordList"></div>
+    <div class="loadbtn" ng-click="moreRoomList()" id="j_moreRecord">点击加载更多</div>
+</div>
+
+</body>
+
+</html>
